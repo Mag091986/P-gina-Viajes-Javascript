@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    color: #1b004e;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #8fff10;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #1b004e;
+    padding: 8px 16px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li a.active {
+    background-color: #16b5ff;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #ff5100;
+    color: white;
+}
+
+
+.contenedor {
+    margin-left: 25%;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+h4 {
+    background-color: #ff5100;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    font-size: 2em;
+}
+
+h2 {
+    background-color: #1b004e;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    font-size: 2em;
+}
